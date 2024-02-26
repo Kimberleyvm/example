@@ -20,6 +20,7 @@ body{
 }
 .banner{
     padding: 15px;
+    width: 100%;
 }
 
 .honk-uniquifier> {
@@ -40,6 +41,7 @@ body{
     background-color: rgb(249, 239, 130);
     padding: 20px;
     word-spacing: 10px;
+    width: 100%;
 }@media only screen and (max-width: 600px){
     .menu a{
         display: block;
@@ -62,7 +64,7 @@ body{
 .container{
     display: inline-flex;
     flex-direction: row;
-    height:auto;
+    height:100%;
     width: 100%;
     border-bottom: none;
 }@media only screen and (max-width: 600px){
