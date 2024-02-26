@@ -1,5 +1,5 @@
 // typewriter.js
-const words = ["And more Webdesign","Stand out", "Design", "Create", "And more webdesign"];
+const words = ["Webdesign","Stand out", "Design", "Create", "And more", "webdesign"];
 let wordIndex = 0;
 let letterIndex = 0;
 let isDeleting = false;
