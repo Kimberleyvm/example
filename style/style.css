@@ -57,9 +57,9 @@ body{
     margin: 0;
 }
 .container{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    height: 100vh;
+    height:auto;
     width: 100%;
     border-bottom: none;
 }@media only screen and (max-width: 600px){
@@ -102,7 +102,7 @@ h1, h2{
     text-align: center;
     padding: 30px;
     overflow: hidden;
-    margin: 0%;
+    
 }@media only screen and (max-width: 600px){
     .rechts{
         width: 100%;
@@ -122,16 +122,21 @@ h1, h2{
     width: 30%;
 }
 .bottom{
-    position: relative;
+    margin: 0%;
     bottom: 0;
     height: 75px;
     width: 100%;
     background-color: rgb(246, 89, 115);
     text-align: center;
-    
+    padding: 5px;
 }
 
 .bottomtext{
+    text-align: left;
     padding: 20px;
     font-family: "Balsamiq Sans", sans-serif;
+}@media only screen and (max-width: 600px){
+    .bottomtext{
+        text-align: center;
+    }
 }
