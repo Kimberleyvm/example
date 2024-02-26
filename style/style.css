@@ -1,14 +1,15 @@
 body{
-    background-color: rgb(252, 157, 78);
     margin: 0%;
     overflow-x: hidden;
+    background-color: rgb(248, 193, 89);
+    
 }
 #typewriter-text{
     overflow: hidden;
     white-space: pre;
     margin: 0 auto;
     text-align: center;
-    font-size: 50pt;
+    font-size: 40pt;
     font-family: 'Honk';
     padding: 20px;
     height: 50px;
@@ -19,7 +20,6 @@ body{
     }
 }
 .banner{
-    padding: 15px;
     width: 100%;
 }
 
@@ -39,19 +39,20 @@ body{
   }
 .menu{
     background-color: rgb(249, 239, 130);
-    padding: 20px;
+    padding-top: 20px;
     word-spacing: 10px;
     width: 100%;
 }@media only screen and (max-width: 600px){
     .menu a{
         display: block;
         text-align: center;
+        padding: 5px;
     }
 }
 .menu a{
     font-family: 'Honk';
     font-size: 26pt;
-    
+    padding-left: 10px;
 }@media only screen and (max-width: 600px){
     .menu a{
         font-size: 22pt;
@@ -63,51 +64,52 @@ body{
 }
 .container{
     display: inline-flex;
-    flex-direction: row;
-    height:100%;
     width: 100%;
-    border-bottom: none;
+    height: 750px;
+    overflow: hidden;
 }@media only screen and (max-width: 600px){
     .container{
         display: block;
-        height: auto;
         width: 100%;
+        height: auto;
     }
 }
 .links{
-    width: 40%;
-    padding: 10px;
-    height: 100%;
+    width: 400px;
+    padding: 5px;
+    padding-left: 10px;
+    height: auto;
     overflow: hidden;
     margin: 0%;
 }@media only screen and (max-width: 600px){
     .links{
         text-align: center;
         width: 100%;
-        height: auto;
-        padding: 5px;
     }
 }
-h1, h2{
+h1, h2, h3{
     font-family: 'Honk';
-    margin: 15px;
+    margin: 10px;
 }
 .linkertext{
-    padding: 20px;
+    padding-bottom: 10px;
     font-family: "Balsamiq Sans", sans-serif;
 }
 .textimg{
-    width: 40%;
+    width: 50%;
+    padding: 10%;
     
+}@media only screen and (max-width: 600px){
+    .textimg{
+        padding: 5px;
+        width:35%;
+    }
 }
 .rechts{
-    background-color: rgb(249, 239, 130);
     width: 100%;
-    height: 100%;
+    background-color: rgb(249, 239, 130);
     text-align: center;
-    padding: 5px;
-    overflow: hidden;
-    
+    padding: 5px;   
 }@media only screen and (max-width: 600px){
     .rechts{
         width: 100%;
@@ -120,25 +122,31 @@ h1, h2{
     font-family: "Balsamiq Sans", sans-serif;
 }@media only screen and (max-width: 600px){
     .rechtertext{
-        padding: 10px;
+        padding-bottom: 5%;
+        padding-top: 2%;
     }
 }
 .textimg2{
-    width: 25%;
+    width: 20%;
+    padding: 5%;
+}@media only screen and (max-width: 600px){
+    .textimg2{
+        padding: 10px;
+        width: 25%;
+    }
 }
 .bottom{
-    margin: 0%;
-    bottom: 0;
-    height: 75px;
+    height: 40px;
     width: 100%;
     background-color: rgb(246, 89, 115);
     text-align: center;
+    margin: 0%;
     padding: 5px;
+    overflow: hidden;
+    
 }
-
 .bottomtext{
     text-align: left;
-    padding: 20px;
     font-family: "Balsamiq Sans", sans-serif;
 }@media only screen and (max-width: 600px){
     .bottomtext{
