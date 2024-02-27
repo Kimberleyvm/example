@@ -159,3 +159,8 @@ h1, h2, h3{
         text-align: center;
     }
 }
+/* over pagina */
+.textimg_over{
+    width:250px;
+    height: auto;
+}
