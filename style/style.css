@@ -43,12 +43,6 @@ body{
     padding-top: 20px;
     word-spacing: 10px;
     width: 100%;
-}@media only screen and (max-width: 600px){
-    .menu a{
-        display: block;
-        text-align: center;
-        padding: 5px;
-    }
 }
 .menu a{
     font-family: 'Balsamiq Sans', sans-serif;
@@ -58,8 +52,10 @@ body{
     color:black;
 }@media only screen and (max-width: 600px){
     .menu a{
-        font-size: 22pt;
-        padding: 2px;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        font-size: 18pt;
     }
 }
 .lining{
