@@ -164,3 +164,20 @@ h1, h2, h3{
     width:250px;
     height: auto;
 }
+.textimg_tarieven{
+    width:250px;
+    height: auto;
+}
+.linkertext_tarieven{
+    padding: 5px;
+    font-family: "Balsamiq Sans", sans-serif;
+}@media only screen and (max-width: 600px){
+    .linkertext_tarieven{
+        padding: 5px;
+        font-size: 11pt;
+    }
+}
+.tarieflijn{
+    border: 1px solid rgb(246, 89, 115);
+    
+}
