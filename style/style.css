@@ -92,11 +92,11 @@ h1, h2, h3{
     margin: 10px;
 }
 .linkertext{
-    padding: 10px;
+    padding: 5px;
     font-family: "Balsamiq Sans", sans-serif;
 }@media only screen and (max-width: 600px){
     .linkertext{
-        padding: 20px;
+        padding: 5px;
     }
 }
 .textimg{
@@ -134,7 +134,7 @@ h1, h2, h3{
     padding: 5%;
 }@media only screen and (max-width: 600px){
     .textimg2{
-        padding: 10px;
+        padding: 5px;
         width: 25%;
     }
 }
